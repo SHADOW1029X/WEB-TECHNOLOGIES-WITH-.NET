@@ -1,6 +1,7 @@
 # WEB-TECHNOLOGIES-WITH-.NET
 EXPENSE TRACKER
-Description
+
+Description:
 Expense Tracker is a web application built using ASP.NET Core MVC for managing personal expenses. It allows users to add, view, edit, delete expenses, filter by date or category, view summaries with charts, and export to CSV. The backend uses Entity Framework Core with MySQL (hosted on XAMPP), and the frontend is Razor Views with Bootstrap for responsive UI. Developed in VS Code.
 Setup Steps
 
