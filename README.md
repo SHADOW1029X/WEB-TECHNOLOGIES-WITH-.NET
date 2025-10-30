@@ -5,7 +5,7 @@ Expense Tracker is a web application built using ASP.NET Core MVC for managing p
 Setup Steps
 
 Clone the Repository:
-textgit clone https://github.com/yourusername/expense-tracker.git
+git clone https://github.com/SHADOW1029X/WEB-TECHNOLOGIES-WITH-.NET
 cd expense-tracker
 
 Install .NET SDK 8.0:
@@ -30,7 +30,7 @@ Configure Database Connection:
 
 Open appsettings.json.
 Update the connection string:
-text"ConnectionStrings": {
+"ConnectionStrings": {
   "DefaultConnection": "Server=localhost;Database=expensesdb;User=root;Password=;"
 }
 
@@ -40,12 +40,12 @@ Apply Migrations:
 
 Open terminal in VS Code.
 Run:
-textdotnet ef migrations add InitialCreate
+dotnet ef migrations add InitialCreate
 dotnet ef database update
 
 
 
 Run the Application:
-textdotnet run
+dotnet run
 
 Open in browser: https://localhost:5001 or http://localhost:5000.
